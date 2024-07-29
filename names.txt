@@ -1,0 +1,148 @@
+Luke Skywalker, M
+See 3PO, M
+R2 D2, M
+Darth Vader, M
+Leia Organa, F
+Owen Lars, M
+Beru W Lars, M
+R5 D4, M
+Biggs Darklighter, M
+Obi-Wan Kenobi, M
+Anakin Skywalker, M
+Wilhuff Tarkin, M
+Chewbacca Smith, M
+Han Solo, M
+Greedo Lancaster, M
+Jabba D Tiure, M
+Wedge Antilles, M
+Jek T Porkins, M
+Yoda T Great, M
+Palpatine Sith, M
+Boba Fett, M
+Bossk T Haroon, M
+Lando Calrissian, M
+Lobot K James, M
+Ackbar M Polo, M
+Mon T Mothma, F
+Arvel R Crynyd, F
+Wicket S Warrick, M
+Nien Nunb, F
+Qui-Gon Jinn, M
+Nute J Gunray, F
+Finis Valorum, F
+Jar J Binks, M
+Roos Tarpals, F
+Rugor Nass, M
+Ric Olié, M
+Watto Hardfort, M
+Sebulba Hammer, M
+Quarsh Panaka, M
+Shmi Skywalker, F
+Darth S Maul, M
+Bib Q Fortuna, F
+Ayla A Secura, F
+Dud Bolt, M
+Gasgano Trip, M
+Ben L Quadinaros, M
+Mace J Windu, M
+Ki-Adi Mundi, M
+Kit Fisto, M
+Eeth Koth, M
+Adi Gallia, F
+Saesee Tiin, F
+Yarael Poof, F
+Plo P Koon, M
+Mas M Amedda, F
+Gregar J Typho, M
+Cordé Haans, M
+Cliegg Lars, M
+Poggle T Lesser, M
+Luminara Unduli, F
+Barriss Offee, M
+Dormé Richmond, M
+Count Dooku, M
+Bail P Organa, M
+Jango Fett, M
+Zam Wesell, M
+Dexter Jettster, M
+Lama Su, F
+Taun We, F
+Jocasta Nu, M
+Ratts Tyerell, M
+R4 P17, F
+Wat B Tambor, M
+San Hill, F
+Shaak Ti, F
+General Grievous, M
+Tarfful Cranes, M
+Raymus Z Antilles, M
+Sly Moore, F
+Tion Medon, F
+Finn Yankee, M
+Rey Light, F
+Poe Dameron, M
+Bee B Eight, F
+Captain Phasma, M
+Padmé Amidala, F
+Regulus A Black, M
+Sirius Black, M
+Lavender Brown, F
+Cho Chang, F
+Vincent Crabbe, M
+Fleur Delacour, F
+Cedric Diggory, M
+Alberforth Dumbledore, M
+Albus Dumbledore, M
+Dudley Dursley, M
+Petunia Z Dursley, F
+Vernon Dursley, M
+Argus T Filch, M
+Seamus Finnigan, M
+Nicolas Flamel, M
+Cornelius Fudge, M
+Goyle Srack, M
+Gregory Goyle, M
+Hermione Granger, F
+Rubeus J Hagrid, M
+Igor W Karkaroff, M
+Viktor k Krum, M
+Bellatrix U Lestrange, F
+Alice P Longbottom, F
+Frank N Longbottom, M
+Neville O Longbottom, M
+Luna L Lovegood, F
+Xenophilius R Lovegood, M
+Remus I Lupin, M
+Draco L Malfoy, M
+Lucius M Malfoy, M
+Narcissa G Malfoy, F
+Olympe F Maxime, M
+Minerva E McGonagall, F
+Mad E Moody, M
+Peter C Pettigrew, M
+Harry Potter, M
+James H Potter, M
+Lily J Potter, F
+Quirinus J Quirrell, M
+Tom Riddle, M
+Mary H Riddle, F
+Lord D Voldemort, M
+Rita S Skeeter, F
+Severus P Snape, M
+Nymphadora N Tonks, F
+Dolores J Umbridge, F
+Arthur Weasley, M
+Bill Weasley, M
+Charlie Weasley, M
+Fred Weasley, M
+George L Weasley, M
+Ginny K Weasley, F
+Molly J Weasley, F
+Percy Weasley, M
+Ron Weasley, M
+Dobby Ranger, M
+Fluffy Duck, M
+Hedwig Lucifer, F
+Moaning Myrtle, F
+Aragog Donald, M
+Grawp King, M
