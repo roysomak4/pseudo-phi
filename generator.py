@@ -2,20 +2,24 @@ from datetime import date, timedelta
 from random import randrange, seed
 
 
-def generate_phi():
+def generate_phi(num_patients: int):
     # Load names
     names: list = load_names_and_gender()
 
-    # Get random name
-    patient: dict = get_random_name_and_gender(names)
+    patients: list = []
+    for count in range(num_patients):
+        # Get random name
+        patient: dict = get_random_name_and_gender(names)
 
-    # Get random DOB
-    patient["dob"] = date.strftime(generate_random_dob(), "%m/%d/%Y")
+        # Get random DOB
+        patient["dob"] = date.strftime(generate_random_dob(), "%m/%d/%Y")
 
-    # Get random MRN
-    patient["mrn"] = randrange(10000, 500000)
+        # Get random MRN
+        patient["mrn"] = randrange(10000, 500000)
 
-    print(patient)
+        patients.append(patient)
+
+    return patients
 
 
 def get_random_name_and_gender(name_list: list) -> dict:
@@ -53,4 +57,8 @@ def load_names_and_gender() -> list:
 
 
 if __name__ == "__main__":
-    generate_phi()
+    print(
+        "This script generates fictious patient records for software development and testing purposes."
+    )
+    num_patients = int(input("How many patient records to generate? "))
+    print(generate_phi(num_patients))
