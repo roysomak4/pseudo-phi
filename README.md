@@ -6,10 +6,14 @@ Python >=3.10
 
 ### How to use
 1. Clone the repository
+   ```bash
+   git clone https://github.com/roysomak4/pseudo-phi.git
+   cd pseudo-phi
+   ```
 2. For quick test run `python3 test.py`. This should output a list of dictionaries of 4 random patient records in `stdout`.
 3. This is meant to be used as a module in apps. An example is below
 
-```
+```python
 from generator import generate_phi
 
 patients: list = generate_phi(num_patients=4)
