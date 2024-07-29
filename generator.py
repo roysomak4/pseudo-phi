@@ -2,7 +2,7 @@ from datetime import date, timedelta
 from random import randrange, seed
 
 
-def generate_phi(num_patients: int):
+def generate_phi(num_patients: int = 1):
     # Load names
     names: list = load_names_and_gender()
 
