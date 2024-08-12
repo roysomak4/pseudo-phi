@@ -12,7 +12,7 @@ def generate_phi(num_patients: int = 1):
         patient: dict = get_random_name(fnames, lnames, minitials)
 
         # Get random DOB
-        patient["dob"] = date.strftime(generate_random_dob(), "%m/%d/%Y")
+        patient["dob"] = date.strftime(generate_random_dob(), "%Y-%m-%d")
 
         # Get random MRN
         patient["mrn"] = randrange(10000, 500000)
@@ -27,7 +27,7 @@ def generate_phi(num_patients: int = 1):
     return patients
 
 
-def get_random_name(fnames: list, lnames: list, minitials: list) -> tuple:
+def get_random_name(fnames: list, lnames: list, minitials: list) -> dict:
     patient = {}
     rand_pos: int = randrange(len(fnames))
     patient["firstname"] = fnames[rand_pos]
