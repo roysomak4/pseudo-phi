@@ -4,12 +4,12 @@ from random import randrange, seed
 
 def generate_phi(num_patients: int = 1):
     # Load names
-    names: list = load_names_and_gender()
+    fnames, lnames, minitials = load_names()
 
     patients: list = []
     for count in range(num_patients):
         # Get random name
-        patient: dict = get_random_name_and_gender(names)
+        patient: dict = get_random_name(fnames, lnames, minitials)
 
         # Get random DOB
         patient["dob"] = date.strftime(generate_random_dob(), "%m/%d/%Y")
@@ -17,14 +17,23 @@ def generate_phi(num_patients: int = 1):
         # Get random MRN
         patient["mrn"] = randrange(10000, 500000)
 
+        # Get random gender
+        genders = ["M", "F"]
+        option = randrange(0, 2)
+        patient["gender"] = genders[option]
+
         patients.append(patient)
 
     return patients
 
 
-def get_random_name_and_gender(name_list: list) -> dict:
-    rand_pos: int = randrange(len(name_list))
-    return name_list[rand_pos]
+def get_random_name(fnames: list, lnames: list, minitials: list) -> tuple:
+    patient = {}
+    rand_pos: int = randrange(len(fnames))
+    patient["firstname"] = fnames[rand_pos]
+    patient["lastname"] = lnames[rand_pos]
+    patient["minitial"] = minitials[rand_pos]
+    return patient
 
 
 def generate_random_dob() -> date:
@@ -39,21 +48,22 @@ def generate_random_dob() -> date:
     return randate
 
 
-def load_names_and_gender() -> list:
-    names: list = []
+def load_names() -> tuple:
+    fnames: list = []
+    lnames: list = []
+    minitials: list = []
     with open("names.txt", "r") as f:
         for line in f:
-            name, gender = line.strip().split(",")
-            nameArr: list = name.split(" ")
-            tmpDict: dict = {}
-            tmpDict["fname"] = nameArr[0].strip()
-            tmpDict["lname"] = nameArr[-1].strip()
-            tmpDict["mname"] = ""
-            if len(nameArr) > 2:
-                tmpDict["mname"] = nameArr[1].strip()
-            tmpDict["gender"] = gender.strip()
-            names.append(tmpDict)
-    return names
+            tmpArr = line.strip().split(" ")
+            minitial = ""
+            fname = tmpArr[0]
+            lname = tmpArr[-1]
+            if len(tmpArr) > 2:
+                minitial = tmpArr[1]
+            fnames.append(fname)
+            lnames.append(lname)
+            minitials.append(minitial)
+    return fnames, lnames, minitials
 
 
 if __name__ == "__main__":
